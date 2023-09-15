@@ -1,0 +1,180 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Version",
+	"Elements":
+	[
+		{
+			"Name":"Forecast1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Version 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Version 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Explanation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Performance Variance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ccy Exchange Variance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dashboard",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"DashboardCA",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Prior Year Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Target vs Prior Year Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Target vs Prior Year Actual %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Rate Variance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Volume Variance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Zero",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Predictive",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Predictivev2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Target vs Budget",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Target vs Budget %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"CURR FCST",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"PY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2018 Act",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2017 Act",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2016 Act",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2015 Act",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2014 Act",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Generic",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Target",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Variance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Variance %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Scenario 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Temp Vesion",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Temp Vesion",
+			"ComponentName":"Forecast1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Temp Vesion",
+			"ComponentName":"Actual",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Version.subsets/_Bud_PY.json",
+		"Version.subsets/Actuals.json",
+		"Version.subsets/ALL.json",
+		"Version.subsets/Bud_2018.json",
+		"Version.subsets/BUD_FCST_Dynamic.json",
+		"Version.subsets/Bud_PY.json",
+		"Version.subsets/Current.json",
+		"Version.subsets/Dynamic_All_Versions.json",
+		"Version.subsets/History.json",
+		"Version.subsets/View10315.json",
+		"Version.subsets/View13548.json",
+		"Version.subsets/View28713.json",
+		"Version.subsets/View38923.json",
+		"Version.subsets/View4268.json",
+		"Version.subsets/View45714.json",
+		"Version.subsets/View51766.json",
+		"Version.subsets/View57197.json",
+		"Version.subsets/View60391.json",
+		"Version.subsets/View64304.json",
+		"Version.subsets/View64739.json",
+		"Version.subsets/View86320.json"
+	]
+}

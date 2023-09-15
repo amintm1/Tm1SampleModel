@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"BUD_FCST_Dynamic",
+	"Alias":"Caption",
+	"Expression":"{FILTER(FILTER(TM1SubsetAll([Version].[Version]), ([Version].[Version].CURRENTMEMBER.PROPERTIES(\"VersionType\") <> \"A\")), ([Version].[Version].CURRENTMEMBER.PROPERTIES(\"VersionType\") <> \"V\"))}"
+}

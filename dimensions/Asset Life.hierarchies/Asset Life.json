@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Asset Life",
+	"Elements":
+	[
+		{
+			"Name":"Asset Life",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

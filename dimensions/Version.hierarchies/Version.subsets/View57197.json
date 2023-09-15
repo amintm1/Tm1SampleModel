@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"View57197",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Forecast1')"
+		}
+	]
+}

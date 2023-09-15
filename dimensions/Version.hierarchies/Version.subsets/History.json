@@ -1,0 +1,23 @@
+{
+	"@type":"Subset",
+	"Name":"History",
+	"Alias":"Caption",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2018 Act')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2017 Act')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2016 Act')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2015 Act')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2014 Act')"
+		}
+	]
+}

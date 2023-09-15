@@ -1,0 +1,29 @@
+{
+	"@type":"Subset",
+	"Name":"ALL",
+	"Alias":"Caption",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Budget')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('PY')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2018 Act')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2017 Act')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2016 Act')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2015 Act')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2014 Act')"
+		}
+	]
+}

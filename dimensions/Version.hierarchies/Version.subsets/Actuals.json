@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Actuals",
+	"Alias":"Caption",
+	"Expression":"{FILTER(TM1SubsetAll([Version].[Version]), ([Version].[Version].CURRENTMEMBER.PROPERTIES(\"VersionType\") = \"A\"))}"
+}

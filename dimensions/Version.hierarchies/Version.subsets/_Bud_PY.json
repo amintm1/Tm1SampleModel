@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"_Bud_PY",
+	"Alias":"Caption",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Budget')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2018 Act')"
+		}
+	]
+}

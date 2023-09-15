@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"Dynamic_All_Versions",
+	"Alias":"Caption",
+	"Expression":"{TM1FILTERBYLEVEL(TM1SUBSETALL([Version].[Version]) , 0)}"
+}
